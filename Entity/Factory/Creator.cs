@@ -6,6 +6,6 @@ namespace Entity.Factory
 {
     public abstract class PageFactory
     {
-
+        public abstract Page CreatePage(int choice);
     }
 }

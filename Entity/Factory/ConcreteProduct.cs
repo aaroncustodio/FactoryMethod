@@ -4,68 +4,27 @@ using System.Text;
 
 namespace Entity.Factory
 {
-    class LocalBusinessPage : PageType
+    class LocalBusinessPage : Page
     {
-        #region encaps
-        //private string pageName;
-        //private int likes;
-        //private int follows;
-        //private List<Post> pagePosts;
-        //public override string PageName
-        //{
-        //    get { return pageName; }
-        //    set { pageName = value; }
-        //}
-        //public override int Likes
-        //{
-        //    get { return likes; }
-        //    set { likes = value; }
-        //}
-        //public override int Follows
-        //{
-        //    get { return follows; }
-        //    set { follows = value; }
-        //}
-        //public override List<Post> PagePosts
-        //{
-        //    get { return pagePosts; }
-        //    set { pagePosts = value; }
-        //} 
-        #endregion
-        public override string PageName { get; set; }
-        public override int Likes { get; set; }
-        public override int Follows { get; set; }
-        public override List<Post> PagePosts { get; set; }
-
         public override void SamplePageMethod()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Local Business Page!");
         }
     }
 
-    class ArtistPage : PageType
+    class ArtistPage : Page
     {
-        public override string PageName { get; set; }
-        public override int Likes { get; set; }
-        public override int Follows { get; set; }
-        public override List<Post> PagePosts { get; set; }
-
         public override void SamplePageMethod()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Artist Page!");
         }
     }
 
-    class EntertainmentPage : PageType
+    class EntertainmentPage : Page
     {
-        public override string PageName { get; set; }
-        public override int Likes { get; set; }
-        public override int Follows { get; set; }
-        public override List<Post> PagePosts { get; set; }
-
         public override void SamplePageMethod()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Entertainment Page!");
         }
     }
 }
