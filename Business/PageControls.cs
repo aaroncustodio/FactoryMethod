@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Business
 {
-    class PageControls
+    public class PageControls
     {
         ConcreteCreator pagecrtor = new ConcreteCreator();
         PageRepo pr = new PageRepo();

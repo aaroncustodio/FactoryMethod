@@ -16,9 +16,10 @@ namespace Entity.Factory
                     return new ArtistPage();
                 case 3:
                     return new EntertainmentPage();
-
+                default:
+                    return null;
             }
-            return null;
+            
         }
     }
 }
