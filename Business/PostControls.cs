@@ -8,6 +8,7 @@ namespace Business
 {
     class PostControls
     {
+        
         PostRepo pstRep = new PostRepo();
         public void ViewPost()
         {

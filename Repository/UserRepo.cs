@@ -20,6 +20,7 @@ namespace Repository
 
         public void DeleteUserInRepo(Guid id)
         {
+         
             UserList.RemoveAll(a => a.ID == id);
         }
     }

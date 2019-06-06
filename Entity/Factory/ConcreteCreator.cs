@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entity.Factory
 {
-    class ConcreteCreator : PageFactory
+    public class ConcreteCreator : PageFactory
     {
         public override Page CreatePage(int creator)
         {

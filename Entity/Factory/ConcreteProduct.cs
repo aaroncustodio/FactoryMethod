@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entity.Factory
 {
-    class LocalBusinessPage : Page
+    public class LocalBusinessPage : Page
     {
         public override void SamplePageMethod()
         {

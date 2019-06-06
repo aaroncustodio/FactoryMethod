@@ -10,7 +10,9 @@ namespace Entity.Factory
         public int Likes { get; set; }
         public int Follows { get; set; }
         public List<Post> PagePosts { get; set; }
-        public abstract void SamplePageMethod();
+        public virtual void SamplePageMethod()
+        {
+        }
 
     }
     
