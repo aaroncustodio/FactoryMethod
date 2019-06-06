@@ -12,10 +12,13 @@ namespace Business
         PageRepo pr = new PageRepo();
 
         public void NewPage(int i)
-        {
-            Page pg = pagecrtor.CreatePage(i);
+        {   
+            if (i != null)
+            { 
+                Page pg = pagecrtor.CreatePage(i);
 
-            pr.AddPageToRepo(pg);
+                pr.AddPageToRepo(pg);
+            }
         }
     }
 }

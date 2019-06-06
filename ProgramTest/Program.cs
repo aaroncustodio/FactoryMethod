@@ -12,14 +12,21 @@ namespace ProgramTest
             PageControls pgC = new PageControls();
 
             //Input string
-            string input = Console.ReadLine();
+            string input = null;
 
             //Using TryParse to filter non-numeric strings
             Int32.TryParse(input, out int num);
 
-            pgC.NewPage(num);
-
-             
+            //Using if else to filter out-of-range values
+            if (num >= 1 && num <= 3)
+            {
+                Console.WriteLine("Success.");
+                pgC.NewPage(num);
+            }
+            else
+            {
+                Console.WriteLine("Out of range.");
+            }
         }
     }
 }

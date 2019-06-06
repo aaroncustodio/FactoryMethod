@@ -8,4 +8,6 @@ namespace Entity.Factory
     {
         public abstract Page CreatePage(int choice);
     }
+
+
 }
