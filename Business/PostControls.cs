@@ -15,6 +15,11 @@ namespace Business
 
         }
 
+        public void SharePost()
+        {
+            
+        }
+
         public void CreatePost(Guid id, User postedby, string content)
         {
             Post NewPost = new Post

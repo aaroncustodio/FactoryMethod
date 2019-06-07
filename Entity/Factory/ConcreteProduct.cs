@@ -6,6 +6,10 @@ namespace Entity.Factory
 {
     public class LocalBusinessPage : Page
     {
+        public LocalBusinessPage()
+        {
+            PageType = "Local Business";
+        }
         public override void SamplePageMethod()
         {
             Console.WriteLine("Local Business Page!");
@@ -14,6 +18,10 @@ namespace Entity.Factory
 
     class ArtistPage : Page
     {
+        public ArtistPage()
+        {
+            PageType = "Artist/Band";
+        }
         public override void SamplePageMethod()
         {
             Console.WriteLine("Artist Page!");
@@ -22,6 +30,10 @@ namespace Entity.Factory
 
     class EntertainmentPage : Page
     {
+        public EntertainmentPage()
+        {
+            PageType = "Entertainment";
+        }
         public override void SamplePageMethod()
         {
             Console.WriteLine("Entertainment Page!");

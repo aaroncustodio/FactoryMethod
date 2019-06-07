@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entity
 {
-    public class Post : BaseClass
+    public class Post : BaseClass// ICloneable
     {
         private User postedBy;
         private string content;
@@ -19,5 +19,10 @@ namespace Entity
             get { return content; }
             set { content = value; }
         }
+
+        //public object Clone()
+        //{
+        //    return this.MemberwiseClone();
+        //}
     }
 }

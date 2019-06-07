@@ -20,5 +20,10 @@ namespace Business
                 pr.AddPageToRepo(pg);
             }
         }
+
+        public void ViewPages()
+        {
+            pr.ViewPages();
+        }
     }
 }

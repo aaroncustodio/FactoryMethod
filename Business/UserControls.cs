@@ -8,7 +8,7 @@ namespace Business
 {
     public class UserControls
     {
-        ConcreteCreator pagecrtor = new ConcreteCreator();
+        //ConcreteCreator pagecrtor = new ConcreteCreator();
         UserRepo usrRep = new UserRepo();
         public void AddUser(string name, string gender, DateTime birthday, string email)
         {
